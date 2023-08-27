@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta class="description" content="Somos un equipo de profesionales con mas de 15 años de trayectoria en organizaciones de eventos
+    privados y corporativo">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Codystar&family=Delius+Swash+Caps&family=Potta+One&family=Tilt+Neon&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Bs_Eventos - Contacto</title>
+</head>
+
+<body>
+    <header>
+    </header>
+
+    <main>
+        <div class="banner-image-contactanos w-100 vh-100 d-flex justify-content-center align-items-center">
+            <div class="container">
+
+                <div class="formulario-contacto glass-effect">
+                    <form action="" class="form row justify-content-center" id="form" autocomplete="off">
+                        <div class="form-input nameInput col-6">
+                            <label for="nameInput" class="form-label"><b>Nombre</b></label>
+                            <input type="text" class="form-control" id="nameInput" placeholder="Nombre/s">
+                            <p class="mensajeError"></p>
+                        </div>
+                        <div class="form-input surnameInput col-6">
+                            <label for="surnameInput" class="form-label"><b>Apellido</b></label>
+                            <input type="text" class="form-control surnameInput" id="surnameInput"
+                                placeholder="Apellido/s">
+                            <p class="mensajeError"></p>
+                        </div>
+                        <div class="form-input emailInput col-6">
+                            <label for="emailInput" class="form-label"><b>Email</b></label>
+                            <input type="email" class="form-control emailInput" id="emailInput" placeholder="Email">
+                            <p class="mensajeError"></p>
+                        </div>
+                        <div class="form-input cellInput col-6">
+                            <label for="cellImput" class="form-label"><b>Teléfono</b></label>
+                            <input type="telephone" class="form-control cellInput" id="cellInput"
+                                placeholder="Teléfono">
+                            <p class="mensajeError"></p>
+                        </div>
+                        <div class="form-input dateInput col-6">
+                            <label for="dateImput" class="form-label"><b>Mes de Paternidad</b></label>
+                            <input type="date" class="form-control dateInput" id="dateInput"
+                                placeholder="Mes Paternidad">
+                            <p class="mensajeError"></p>
+                        </div>
+                        <div class="form-input numInput col-6">
+                            <label for="numImput" class="form-label"><b>A cuántos queres invitar?</b></label>
+                            <input type="number" class="form-control numInput" id="numInput"
+                                placeholder="Número Invitados">
+                            <p class="mensajeError"></p>
+                        </div>
+                        <div class="form-input zoneInput col-6">
+                            <label for="zoneImput" class="form-label"><b>Dónde queres festejar?</b></label>
+                            <input type="text" class="form-control zoneInput" id="zoneInput" placeholder="Zona AMBA">
+                            <p class="mensajeError"></p>
+                        </div>
+                        <div class="form-input placeInput col-6">
+                            <label for="placeInput" class="form-label"><b>Contás con Parrilla?</b></label>
+                            <select class="form-select" id="placeInput" aria-label="Default select example">
+                                <option value="0">Elije una opción</option>
+                                <option value="Sí">Sí</option>
+                                <option value="No">No</option>
+                            </select>
+                            <p class="mensajeError"></p>
+                        </div>
+                        <div class="d-grid gap-2">
+                            <input class="btn btn-dark" type="submit" value="Enviar" onclick="capturar()">
+                        </div>
+                        <p class="mensajeCorrecto"></p>
+                    </form>
+                    <div class="container">
+                        <table class="table" id="tabla">
+                            <thead class="thead-inverse bg-dark text-light">
+                                <tr>
+                                    <th>Nombre</th>
+                                    <th>Apellido</th>
+                                    <th>Email</th>
+                                    <th>Teléfono</th>
+                                    <th>Fecha</th>
+                                    <th>Invitados</th>
+                                    <th>Zona</th>
+                                    <th>Parrilla</th>
+                                </tr>
+                            </thead>
+                            
+                        </table>
+                    </div>
+                </div>
+
+
+    </main>
+
+    <footer class="bg-light text-dark pt-5 pb-4">
+
+    </footer>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
